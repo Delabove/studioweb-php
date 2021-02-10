@@ -14,8 +14,8 @@
     ?>
 
     <?php
-    $_variable = "tasty ants.";
-    echo '<br>this is some php -1'.  $_variable;
+    $_variable = "concatinated string.";
+    echo '<br>this is some php  '.  $_variable;
     ?>
 </body>
 </html>
