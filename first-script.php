@@ -70,6 +70,17 @@
 
     ?>
 
+    <?php
+
+    #Ch 3 Lesson 2 PHP variables
+    $numberFive = 'Stefan';
+    $newVar = 5;
+    $floatingVar = 10.4;
+
+
+
+    ?>
+
 </body>
 </html>
 
