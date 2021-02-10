@@ -22,6 +22,15 @@
     $_variable = "lives inside the string";
     echo 'this is some php code ' . $_variable;
     ?>
+
+    <?php
+    $_variable = "lives inside the string";
+    echo 'this is some php code ' . $_variable;
+    ?>
+
+    <?php
+    phpinfo();
+    ?>
 </body>
 </html>
 
