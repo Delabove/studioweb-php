@@ -25,12 +25,31 @@
 
     <?php
     $_variable = "lives inside the string";
-    echo 'this is some php code ' . $_variable;
+    echo 'this is some php code ' . $_variable . '<br> <br>';
+
     ?>
 
+<!--    --><?php
+//    phpinfo();
+//    ?>
+
     <?php
-    phpinfo();
+// Ch 4
+    //single line comment
+    # single line comment
+
+    /* multi
+    line
+    comment */
+
+    $x = 5 /* + 15 */ + 5;
+
+    $secretVariable= 'password';
+    echo $x;
     ?>
+
+
+
 </body>
 </html>
 
