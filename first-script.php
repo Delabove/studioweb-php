@@ -45,10 +45,30 @@
     $x = 5 /* + 15 */ + 5;
 
     $secretVariable= 'password';
-    echo $x;
+    echo $x .  '<br> <br>';
+
     ?>
 
+    <?php
 
+    #Ch 3 Lesson 1
+
+    /* In PHP, all kewords (ex if, else, while, echo), classes, functions
+   and user defined functions are not case sensitive */
+
+        Echo 'Hello World <br>';
+        echo 'Hello World <br>';
+        EcHo 'Hello World <br>';
+
+        //variables ARE case sensitive
+        //NO var... just ($) to declare a variable
+
+        $dog = 'red';
+        echo 'My dog is ' . $dog . '<br>';
+        echo 'My cat is ' . $DOG . '<br>';
+        echo 'My tiger is ' . $dOg . '<br>';
+
+    ?>
 
 </body>
 </html>
