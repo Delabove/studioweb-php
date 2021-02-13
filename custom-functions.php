@@ -1,4 +1,20 @@
-<?php ?>
+<?php
+
+function firstFunction($name = 'default name'){
+    echo "Hello $name! <br>";
+}
+firstFunction("DeLayne");
+
+
+function secondFunction($name = 'default'){
+//    return "Hello $name!";
+    echo "Hello $name! <br>";
+}
+
+secondFunction("Jacques")
+
+?>
+
 <!DOCTYPE html>
 <html lang="">
 <head>
@@ -9,10 +25,6 @@
 
 <?php
 
-function firstFunction($name = 'default name'){
-    echo "Hello $name!";
-}
-firstFunction();
 
 ?>
 
