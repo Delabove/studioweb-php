@@ -14,15 +14,15 @@
     <h1>PHP Functions</h1>
 
     <?php
-        function familyName($fname) {
-            echo "$fname LaBove <br>";
+        function familyName($fname, $year) {
+            echo "$fname LaBove, born in $year <br>";
         }
-    familyName("Jacques");
-    familyName("DeLayne");
-    familyName("Tuck");
-    familyName("Mia");
+    familyName("Jacques", "85");
+    familyName("DeLayne", "80");
+    familyName("Tuck", "12");
+    familyName("Mia", "17") ;
 
-    print_r("Today's Date; " . $message2);
+    print_r("<br> Today's Date; " . $message2);
     ?>
 
 </body>
