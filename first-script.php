@@ -105,12 +105,20 @@
 
     <?php
     $food = array("Bananas", "Burgers","Chicken", 6);
+
     echo "What's in position 3: " . $food[2] . '</br>';
     echo "What's in position 1: " . $food[0] . '</br>';
     echo "What's in position 2: " . $food[1] . '</br>';
     echo "What's in position 4: " . $food[3] . '</br>';
     ?>
     <h2>Ch 5 Lesson 2 Arrays</h2>
+    <?php
+    $foodCart = array("Bananas", "Burgers","Chicken", 6);
+
+    echo "How many items in our cart: " . count($foodCart);
+    ?>
+
+
 </body>
 </html>
 
