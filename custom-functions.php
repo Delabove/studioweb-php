@@ -9,10 +9,10 @@
 
 <?php
 
-function firstFunction($name){
+function firstFunction($name = 'default name'){
     echo "Hello $name!";
 }
-firstFunction("DeLayne");
+firstFunction();
 
 ?>
 
