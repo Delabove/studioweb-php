@@ -16,7 +16,8 @@ for($i=1; $i <= 10; $i++){
 //while loop
 $x=0;
 while($x <= 10){
-//    $x++;
+    $x++;
+    echo "<br> While" . $x;
 }
 
 //for each
