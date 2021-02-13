@@ -7,7 +7,10 @@
 <body>
 
 <h1>PHP Form Processing</h1>
-<form action="POST"></form>
+    <?php
+    echo "The name entered: " . $_POST["name"] . "<br>";
+    echo "The password entered: " . $_POST["password"] . "<br>";
 
+    ?>
 </body>
 </html>

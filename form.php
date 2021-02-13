@@ -7,13 +7,13 @@
 <body>
 
 <h1>Forms</h1>
-<form>
+<form method="post" action="form_processing.php">
 
-    <label for="first-name">First Name</label><br>
-    <input type="input" id="first-name" name="first-name" value="First Name"> <br>
-    <label for="last-name">Last Name</label><br>
-    <input type="input"id="last-name" name="last-name" value="Last Name"><br><br>
-    <button>SUBMIT</button>
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" value="Name"> <br>
+    <label for="password">Password</label><br>
+    <input type="text"id="password" name="password" value="password"><br><br>
+    <button type="submit">SUBMIT</button>
 </form>
 </body>
 </html>
