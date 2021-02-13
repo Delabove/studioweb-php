@@ -90,16 +90,27 @@
 
     <h2>Ch 4 Lesson 2 Include </h2>
     <?php
+        //CAN INCLUDE JS, CSS, HTML, AND PHP
 
         include("nav.php");
-        include 'nav.php'; //Note: supposed to be "safer" -read more
+        //include 'nav.php'; //Note: supposed to be "safer" -read more
 
     ?>
 
     <?php
-    echo $password;
+    echo  '</br>' . $password;
     ?>
 
+<h2>Ch 5: Arrays</h2>
+
+    <?php
+    $food = array("Bananas", "Burgers","Chicken", 6);
+    echo "What's in position 3: " . $food[2] . '</br>';
+    echo "What's in position 1: " . $food[0] . '</br>';
+    echo "What's in position 2: " . $food[1] . '</br>';
+    echo "What's in position 4: " . $food[3] . '</br>';
+    ?>
+    <h2>Ch 5 Lesson 2 Arrays</h2>
 </body>
 </html>
 

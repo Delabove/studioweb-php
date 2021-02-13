@@ -46,7 +46,7 @@ $password= 1234;
 ?>
 
 <script type="text/javascript">
-    alert("I'm included!")
+    // alert("I'm included!")
 
 </script>
 </body>
