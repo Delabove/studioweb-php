@@ -20,10 +20,11 @@ while($x <= 10){
     echo "<br> While" . $x;
 }
 
+echo"<br>";
 //for each
 $artist= array("Sarah McChlaclan", "Sheryl Crow", "Miranda Lambert");
 foreach ($artist as $value){
-//    echo $value . "<br>";
+    echo "<br> Artist:" . $value;
 }
 
 
