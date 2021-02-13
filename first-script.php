@@ -85,10 +85,13 @@
 
     //Ch 4 Lesson 1 & 2 Includes and PHP Configurations
     //    echo $qwery;
+    echo '</br>';
     ?>
 
+    <h2>Ch 4 Lesson 2 Include </h2>
     <?php
-        include("");
+
+        include("nav.php");
     ?>
 
 </body>
