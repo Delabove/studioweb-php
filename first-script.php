@@ -112,12 +112,26 @@
     echo "What's in position 4: " . $food[3] . '</br>';
     ?>
     <h2>Ch 5 Lesson 2 Arrays</h2>
+
     <?php
     $foodCart = array("Bananas", "Burgers","Chicken", 6);
 
-    echo "How many items in our cart: " . count($foodCart);
+    echo "How many items in our cart: " . count($foodCart) . '</br>';
     ?>
+    <h2>Ch 5 Lesson 3 Arrays</h2>
 
+    <?php
+
+    $cart = array("Bananas", "Burgers", "Chicken", "Butter");
+
+    $arraySize= count($cart);
+
+    for($x=0; $x < $arraySize; $x++){
+        echo "Round " . $x . ": " . $cart[$x] . "</br>";
+    }
+
+
+    ?>
 
 </body>
 </html>
