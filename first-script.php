@@ -65,8 +65,8 @@
 
         $dog = 'red';
         echo 'My dog is ' . $dog . '<br>';
-        echo 'My cat is ' . $DOG . '<br>';
-        echo 'My tiger is ' . $dOg . '<br>';
+//        echo 'My cat is ' . $DOG . '<br>';
+//        echo 'My tiger is ' . $dOg . '<br>';
 
     ?>
 
@@ -79,6 +79,13 @@
 
 
 
+    ?>
+
+    <?php
+
+    //Ch 4 Lesson 1 & 2 Includes and PHP Configurations
+
+//    echo $qwery;
     ?>
 
 </body>
