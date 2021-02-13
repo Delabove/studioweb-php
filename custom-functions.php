@@ -3,7 +3,6 @@
 function firstFunction($name = 'default name'){
     echo "Hello $name! <br>";
 }
-firstFunction("DeLayne");
 
 
 function secondFunction($name = 'default'){
@@ -11,7 +10,12 @@ function secondFunction($name = 'default'){
     echo "Hello $name! <br>";
 }
 
-secondFunction("Jacques")
+function thirdFunction($name = 'default'){
+    return "Hello $name!";
+
+}
+
+
 
 ?>
 
@@ -25,7 +29,11 @@ secondFunction("Jacques")
 
 <?php
 
-
+firstFunction("DeLayne");
+secondFunction("Jacques");
+secondFunction("Tuck");
+secondFunction("Mia");
+echo thirdFunction("Paulette");
 ?>
 
 
