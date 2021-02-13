@@ -1,8 +1,8 @@
 <?php
     $message= strlen("I am learning a little php;"); //counts the length of a strength
-    $message2 = date("D M Y");
+    $message2 = date("m/d/y");
 //        scandir("");
-
+//    $fname= array("Jacques", "DeLayne", "Tuck", "Mia");
 ?>
 <!DOCTYPE html>
 <html lang="">
@@ -14,7 +14,15 @@
     <h1>PHP Functions</h1>
 
     <?php
-        echo print_r($message2);
+        function familyName($fname) {
+            echo "$fname LaBove <br>";
+        }
+    familyName("Jacques");
+    familyName("DeLayne");
+    familyName("Tuck");
+    familyName("Mia");
+
+    print_r("Today's Date; " . $message2);
     ?>
 
 </body>
