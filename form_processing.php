@@ -4,6 +4,9 @@ $password= $_POST["password"];
 $message='';
 
 if($password != 1234){
+
+    header("location: https://delabove.github.io/");
+
     echo "<script> alert('Oh No!')</script>";
 
     $message = "Please try again!";
@@ -25,5 +28,7 @@ if($password != 1234){
 
 <h1>PHP Form Processing</h1>
 <?php echo $message;?>
+
+
 </body>
 </html>
