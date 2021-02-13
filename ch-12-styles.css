@@ -21,35 +21,46 @@ li a {
     text-decoration: none;
 }
 h1{
+    display: inline-block;
+    color: #67483e;
     text-align: center;
     font-family: 'Calligraffitti', cursive;
+    font-weight: bolder!important;
+    font-size: 70px;
+    margin-top: 60px;
+}
+h2{
+    display: block;
+    color: #FFF9EE;
+    font-size: 40px;
+    text-align: center;
+    line-height: 0px;
+    text-shadow: #4f415d 1px 2px 4px;
 }
 
 form {
-    margin: 0px 30px 0px 30px;
+    justify-content: center;
+    text-align: center;
     color: #fff8f8;
     font-family: Didot;
     text-transform: uppercase;
     letter-spacing: 3px;
     display: flex;
     flex-flow: row wrap;
-    flex-direction: column;
-    background-image: url("assets/images/wheat.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: #bcbcd6 1px solid;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: #42205d 1px 2px 4px;
+    vertical-align: middle;
+    padding: 100px;
+
 }
 label{
+    /*vertical-align: middle;*/
+    text-align: center;
     font-size: 18px;
     font-weight: bolder;
     margin: 5px 10px 5px 0;
 }
 
 input{
+
     background-color: #fff9ee;
     vertical-align: middle;
     margin: 5px 10px 5px 0;
@@ -68,7 +79,18 @@ button{
     box-shadow: #42205d 1px 2px;
     cursor: pointer;
 }
-div{ margin-top: 30px; border: #bcbcd6 1px solid; padding: 30px; border-radius: 20px; box-shadow: #42205d 1px 2px 4px;}
+div {
+    text-align: center;
+    background-image: url("assets/images/wheat.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: #42205d 1px 2px 4px;
+    margin: 60px 100px 0px 100px;
+    border: #bcbcd6 1px solid;
+}
+
 select { display: block; border: #bcbcd6 1px solid; padding: 10px; box-shadow: #42205d 1px 2px 4px;}
 option{ font-size: 18px; font-weight: bolder; }
 #select-btn{margin-top: 20px;}

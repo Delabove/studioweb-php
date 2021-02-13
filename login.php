@@ -20,16 +20,15 @@ session_start();
 </nav>
 
 <main>
-<h1>Welcome to WheatBook!</h1>
-
+<div>
+    <h1>Welcome to WheatBook!</h1>
+    <h2>Please enter your username and password to log in.</h2>
     <form method="POST" action="form_processing.php">
-        <label for="name">Name</label><br>
-        <input type="text" id="name" name="name" placeholder="Name"> <br>
-        <label for="password">Password</label><br>
-        <input type="text"id="password" name="password" placeholder="password"><br><br>
+        <input type="text" id="name" name="name" placeholder="NAME"> <br>
+        <input type="text"id="password" name="password" placeholder="PASSWORD"><br><br>
         <button type="submit">SUBMIT</button>
     </form>
-
+</div>
 </main>
 </body>
 </html>
