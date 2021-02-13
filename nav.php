@@ -41,6 +41,8 @@
         <li  class="list-item"><a href="#contact">Contact</a></li>
     </ul>
 </div>
-
+<?php
+$password= 1234;
+?>
 </body>
 </html>

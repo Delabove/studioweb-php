@@ -92,6 +92,12 @@
     <?php
 
         include("nav.php");
+        include 'nav.php'; //Note: supposed to be "safer" -read more
+
+    ?>
+
+    <?php
+    echo $password;
     ?>
 
 </body>
