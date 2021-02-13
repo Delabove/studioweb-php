@@ -131,7 +131,8 @@
         }
     ?>
 
-    <h2>Ch 5 Lesson 4 Types of Arrays</h2>
+    <h2>Ch 5 Lesson 4: Array Types: Associative Arrays</h2>
+
     <?php
     // Indexed array -numbered
     //Associative array -name/value pairs
@@ -139,7 +140,10 @@
 
     $assocArray = array("Jacques" => "35", "DeLayne" => "40", "Tuck" => "8");
 
-    echo "Tuck is " . $assocArray["Tuck"] . " years old!";
+    echo "Tuck is " . $assocArray["Tuck"] . " years old!" . "</br>";
+
+    echo "Count: " . count($assocArray)  . "</br>";
+
     ?>
 
 
