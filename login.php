@@ -12,11 +12,24 @@ session_start();
 <body>
 <nav>
     <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Protected Page</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Log Out</a></li>
+        <li><a href="login.php">Home</a></li>
+        <li><a href="protected-page.php">Protected Page</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="logout.php">Log Out</a></li>
     </ul>
 </nav>
+
+<main>
+<h1>Welcome to WheatBook!</h1>
+
+    <form method="POST" action="form_processing.php">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Name"> <br>
+        <label for="password">Password</label><br>
+        <input type="text"id="password" name="password" placeholder="password"><br><br>
+        <button type="submit">SUBMIT</button>
+    </form>
+
+</main>
 </body>
 </html>

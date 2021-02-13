@@ -20,3 +20,45 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+h1{
+    text-align: center;
+    font-family: 'Calligraffitti', cursive;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    /*align-items: stretch;*/
+    /*align-items: center;*/
+    border: #bcbcd6 1px solid;
+    padding: 30px; border-radius: 20px;
+    box-shadow: #42205d 1px 2px 4px;
+}
+label{
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 5px 10px 5px 0;
+}
+
+input{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: #42205d 1px 2px;
+}
+button{
+    background-color: rebeccapurple;
+    color: lavender;
+    font-size: 16px;
+    font-weight: bolder;
+    border: #9090a4 1px solid;
+    padding: 10px;
+    box-shadow: #42205d 1px 2px;
+    cursor: pointer;
+}
+div{ margin-top: 30px; border: #bcbcd6 1px solid; padding: 30px; border-radius: 20px; box-shadow: #42205d 1px 2px 4px;}
+select { display: block; border: #bcbcd6 1px solid; padding: 10px; box-shadow: #42205d 1px 2px 4px;}
+option{ font-size: 18px; font-weight: bolder; }
+#select-btn{margin-top: 20px;}
