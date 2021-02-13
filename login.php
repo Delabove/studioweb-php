@@ -35,8 +35,8 @@ session_start();
             <div>
                 <h1>Welcome to WheatBook!</h1>
                 <h2>Please enter your username and password to log in.</h2>
-                <form method="POST" action="form_processing.php">
-                    <input type="text" id="name" name="name" placeholder="NAME"> <br>
+                <form method="POST" action="login-response.php">
+                    <input type="text" id="name" name="username" placeholder="NAME"> <br>
                     <input type="text"id="password" name="password" placeholder="PASSWORD"><br><br>
                     <button type="submit">SUBMIT</button>
                 </form>
@@ -46,6 +46,23 @@ session_start();
     }
     ?>
 
+    <?php
+
+    $isBlock = $_GET["isBlock"];
+    $badUserCredentials = $_GET["badUserCredentials"];
+
+    if(isset($isBlock)){
+        echo "<h2>Awww, my bad. You have to log in first.</h2>";
+        echo "<script>document.getElementById('username').focus();</script>";
+    } elseif ($badUserCredentials){
+
+        echo "<h2>User and/or password is incorrect.</h2>";
+        echo "<script>document.getElementById('username').focus();</script>";
+    }
+
+
+
+    ?>
 </main>
 </body>
 </html>

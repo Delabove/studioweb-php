@@ -2,7 +2,7 @@
 
 session_start();
 
-$userName = $_POST["userName"];
+$userName = $_POST["username"];
 
 if(trim($userName) == "DeLayne"){
     $_SESSION['isLoggedIn'] = true; //set the session to true to log in.
@@ -24,7 +24,7 @@ if(trim($userName) == "DeLayne"){
 <body>
 
 <h1>PHP Form Processing</h1>
-<?php echo $message;?>
+<?php //echo $message;?>
 
 
 </body>
