@@ -84,8 +84,11 @@
     <?php
 
     //Ch 4 Lesson 1 & 2 Includes and PHP Configurations
+    //    echo $qwery;
+    ?>
 
-//    echo $qwery;
+    <?php
+        include("");
     ?>
 
 </body>
