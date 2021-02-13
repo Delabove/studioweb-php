@@ -118,20 +118,30 @@
 
     echo "How many items in our cart: " . count($foodCart) . '</br>';
     ?>
+
     <h2>Ch 5 Lesson 3 Arrays</h2>
 
     <?php
+        $cart = array("Bananas", "Burgers", "Chicken", "Butter");
 
-    $cart = array("Bananas", "Burgers", "Chicken", "Butter");
+        $arraySize= count($cart);
 
-    $arraySize= count($cart);
-
-    for($x=0; $x < $arraySize; $x++){
-        echo "Round " . $x . ": " . $cart[$x] . "</br>";
-    }
-
-
+        for($x=0; $x < $arraySize; $x++){
+            echo "Round " . $x . ": " . $cart[$x] . "</br>";
+        }
     ?>
+
+    <h2>Ch 5 Lesson 4 Types of Arrays</h2>
+    <?php
+    // Indexed array -numbered
+    //Associative array -name/value pairs
+    //Multidimensional array -nested arrays
+
+    $assocArray = array("Jacques" => "35", "DeLayne" => "40", "Tuck" => "8");
+
+    echo "Tuck is " . $assocArray["Tuck"] . " years old!";
+    ?>
+
 
 </body>
 </html>
