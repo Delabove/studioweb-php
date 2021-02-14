@@ -2,6 +2,10 @@
 
 session_start();
 
+session_unset();
+
+session_destroy();
+
 ?>
 
 
@@ -15,6 +19,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="ch-12-styles.css">
 </head>
 <body>
+
 <nav>
     <ul>
         <li><a href="login.php">Home</a></li>
@@ -25,49 +30,8 @@ session_start();
 </nav>
 
 <main>
-    <?php
-    if(isset($_SESSION["isLoggedIn"])){
-
-        echo "<p> Yay! You're already in!! </p>";
-
-    }else {
-        $theForm = <<<THEFORM
-            <div>
-                <h1>Welcome to WheatBook!</h1>
-                <h2>Please enter your username and password to log in.</h2>
-                <form method="POST" action="login-response.php">
-                    <input type="text" id="name" name="username" placeholder="NAME"> <br>
-                    <input type="text"id="password" name="password" placeholder="PASSWORD"><br><br>
-                    <button type="submit">SUBMIT</button>
-                </form>
-            </div>
-        THEFORM;
-        echo $theForm;
-    }
-    ?>
-
-    <?php
-
-    $isBlock = $_GET["isBlock"];
-    $badUserCredentials = $_GET["badUserCredentials"];
-
-    if(isset($isBlock)){
-
-        echo "<h2>Awww, my bad. You have to log in first.</h2>";
-        echo "<script>document.getElementById('username').focus();</script>";
-
-    } elseif ($badUserCredentials){
-
-        echo "<h2>User and/or password is incorrect.</h2>";
-        echo "<script>document.getElementById('username').focus();</script>";
-    }
-
-
-
-    ?>
 
 </main>
-
 </body>
 </html>
 
